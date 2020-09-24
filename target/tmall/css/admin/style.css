@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(240, 240, 240);
+}
+/*面包屑导航样式*/
+ol.breadcrumb{
+    width: 1200px;
+    height: 50px;
+    font-size: 18px;
+    color: rgb(50, 50, 50);
+    margin: 30px auto;
+    padding-top: 13px;
+    border-radius: 5px;
+    background: white;
+}
+ol.breadcrumb a{
+    font-size: 18px;
+    color: rgb(3, 174, 132);
+}
+ol.breadcrumb a:hover{
+    color: rgb(50, 50, 50);
+}
+/*显示列表样式*/
+table.table{
+    width: 1200px;
+    margin: 20px auto;
+    border-radius: 3px;
+    background-color: white;
+}
+table.table tr:nth-of-type(1){
+    background-color: rgb(3, 174, 132);
+}
+table.table a{
+    font-size: 18px;
+    color: black;
+}
+table.table a:hover{
+    color: #000;
+}
+/*分页样式*/
+ul.pagination{
+    display: flex;
+    justify-content: center;
+}
+/*添加块样式*/
+div.panel{
+    width: 440px;
+    margin: 50px auto;
+}
+div.panel td{
+    height: 60px;
+}
+div.panel input.txt{
+    width: 300px;
+    height: 40px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+div.panel input.file{
+    border: none;
+    outline: none;
+}
+div.panel button{
+    width: 300px;
+    height: 40px;
+    margin: 20px 0px 0px 55px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(3, 174, 132);
+    color: white;
+    font: 18px bolder;
+    outline: none;
+}
